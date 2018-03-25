@@ -30,8 +30,9 @@ sudo rm -r .Marble2/blk0001.dat
 sudo rm -r .Marble2/txleveldb
 sudo rm -r .Marble2/database
 sudo rm -r blocks.zip
-
+sleep 2
 sudo mv MarbleBlocks/* .Marble2/
+sleep 2
 sudo rm -r MarbleBlocks/
 echo "$PRIVKEY"
 sleep 1
