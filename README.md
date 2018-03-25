@@ -28,7 +28,7 @@ Use this script on a fresh install of Ubuntu 16.04 - start as root user.
 git clone https://github.com/Duffman791/marblemn.git && cd marblemn/ && chmod +x marbleconfig.sh && ./marbleconfig.sh
 ```
 2. follow the prompts closely and don't mess it up! (DO NOT CREATE A USERNAME WITH NUMBERS OR CAPS, UBUNTU DOESN'T LIKE THAT)
-3. Move to Part 2
+3. Move to Part 3
 
 # Part 3 - Getting your Private Key and Finishing Linux Install
 
