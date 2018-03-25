@@ -12,15 +12,14 @@ Use this script on a fresh install of Ubuntu 16.04 - start as root user.
 
 1. Open your Windows wallet - MAKE SURE IT IS SYNCED WITH THE NETWORK
 2. Go to Help -> Debug -> Console
-3. Open a notepad to save the private key number and tx id
-4. Type: getaccountaddress MN1
-5. Send 25000 MARCO to this address
-6. Go to Help -> Debug Window -> Console
-7. Type: masternode outputs
-8. Save your TX ID (The first number) and your Index Number (Second number, either a 1 or 0)
-9. Save these with a notepad
-10. Close the wallet
-11. Move to Part 2 for now
+3. Type: getaccountaddress MN1
+4. Send 25000 MARCO to this address
+5. Go to Help -> Debug Window -> Console
+6. Type: masternode outputs
+7. Save your TX ID (The first number) and your Index Number (Second number, either a 1 or 0)
+8. Save these with a notepad
+9. Close the wallet
+10. Move to Part 2 for now
 
 # Part 2 - Getting your Linux VPS Started Up (Read all instructions and follow prompts closely)
 
