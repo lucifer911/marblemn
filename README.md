@@ -24,20 +24,19 @@ Use this script on a fresh install of Ubuntu 16.04 - start as root user.
 # Part 2 - Getting your Linux VPS Started Up (Read all instructions and follow prompts closely)
 
 1. Connect to your linux vps, copy and paste the following to get started:
-2.
 ```
 git clone https://github.com/Duffman791/marblemn.git && cd marblemn/ && chmod +x marbleconfig.sh && ./marbleconfig.sh
 ```
-3. cd marblemn/
-4. bash marbleconfig.sh
-5. follow the prompts closely and don't mess it up! (DO NOT CREATE A USERNAME WITH NUMBERS OR CAPS, UBUNTU DOESN'T LIKE THAT)
-6. Move to Part 2
+2. follow the prompts closely and don't mess it up! (DO NOT CREATE A USERNAME WITH NUMBERS OR CAPS, UBUNTU DOESN'T LIKE THAT)
+3. Move to Part 2
 
 # Part 3 - Getting your Private Key and Finishing Linux Install
 
 1. Open your VPS that's finished the first script (If not done, just wait)
 2. When this is finished and you can type another command, type:
-  sudo bash genkey.sh
+```
+sudo ./genkey.sh
+```
 3. Copy the Private Key given to you
 4. Go to Part 4
 
