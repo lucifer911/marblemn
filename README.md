@@ -23,7 +23,7 @@ Use this script on a fresh install of Ubuntu 16.04 - start as root user.
 
 # Part 2 - Getting your Linux VPS Started Up (Read all instructions and follow prompts closely)
 
-1. Connect to your linux vps, copy and paste the following to get started:
+1. Connect to your linux vps, copy and paste the following, one at a time, to get started:
 ```
 git clone https://github.com/Duffman791/marblemn.git
 cd marblemn/  
