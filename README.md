@@ -35,7 +35,7 @@ git clone https://github.com/Duffman791/marblemn.git && cd marblemn/ && chmod +x
 1. Open your VPS that's finished the first script (If not done, just wait)
 2. When this is finished and you can type another command, type:
 ```
-sudo ./genkey.sh
+sudo bash ./genkey.sh
 ```
 3. Copy the Private Key given to you
 4. Go to Part 4
