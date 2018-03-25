@@ -25,7 +25,9 @@ Use this script on a fresh install of Ubuntu 16.04 - start as root user.
 
 1. Connect to your linux vps, copy and paste the following to get started:
 ```
-git clone https://github.com/Duffman791/marblemn.git && cd marblemn/ && chmod +x marbleconfig.sh && ./marbleconfig.sh
+git clone https://github.com/Duffman791/marblemn.git
+cd marblemn/  
+bash marbleconfig.sh
 ```
 2. follow the prompts closely and don't mess it up! (DO NOT CREATE A USERNAME WITH NUMBERS OR CAPS, UBUNTU DOESN'T LIKE THAT)
 3. Move to Part 3
