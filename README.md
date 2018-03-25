@@ -23,8 +23,11 @@ Use this script on a fresh install of Ubuntu 16.04 - start as root user.
 
 # Part 2 - Getting your Linux VPS Started Up (Read all instructions and follow prompts closely)
 
-1. Connect to your linux vps and enter the following:
-2. git clone https://github.com/Duffman791/marblemn.git
+1. Connect to your linux vps, copy and paste the following to get started:
+2.
+```
+git clone https://github.com/Duffman791/marblemn.git && cd marblemn/ && chmod +x marbleconfig.sh && ./marbleconfig.sh
+```
 3. cd marblemn/
 4. bash marbleconfig.sh
 5. follow the prompts closely and don't mess it up! (DO NOT CREATE A USERNAME WITH NUMBERS OR CAPS, UBUNTU DOESN'T LIKE THAT)
