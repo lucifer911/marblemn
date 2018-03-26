@@ -24,11 +24,16 @@ sleep 2
 sudo wget https://www.dropbox.com/s/ivkkdq0zprb69gu/MarbleBlocks.zip?dl=1 -O blocks.zip
 sleep 1
 sudo unzip blocks.zip
+sleep 1
 sudo ./Marbled stop
+sleep 1
 echo ""
 sudo rm -r .Marble2/blk0001.dat
+sleep 1
 sudo rm -r .Marble2/txleveldb
+sleep 1
 sudo rm -r .Marble2/database
+sleep 1
 sudo rm -r blocks.zip
 sleep 2
 sudo mv MarbleBlocks/* .Marble2/
