@@ -84,13 +84,19 @@ sudo ufw status
 
 
 sudo wget https://github.com/MarbleCoin/Wallets/raw/master/Marble2-2201-Linux.zip -O Marble2.zip
+sleep 1
 sudo unzip Marble2.zip
+sleep 1
 sudo rm Marble2.zip
+sleep 1
 sudo rm Marble-qt
+sleep 1
 sudo chmod +x Marbled
-
+sleep 1
 sudo mv Marbled /home/$USER
+sleep 1
 sudo mv ~/marblemn/variables.sh /home/$USER
+sleep 1
 sudo mv ~/marblemn/genkey.sh /home/$USER
 sleep 1
 echo ""
