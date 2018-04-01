@@ -21,7 +21,7 @@ echo "$ALIAS $IP:$PORT $PRIVKEY $TX $INDEX" >> $CONF_DIR/$MAST_FILE
 echo ""
 echo "We are now going to update the blocks to ~99000 for faster syncing"
 sleep 2
-sudo wget https://www.dropbox.com/s/ivkkdq0zprb69gu/MarbleBlocks.zip?dl=1 -O blocks.zip
+sudo wget https://www.dropbox.com/s/lv6orp7jrfcr7mv/MarbleBlocks.zip?dl=1 -O blocks.zip
 sleep 1
 sudo unzip blocks.zip
 sleep 1
