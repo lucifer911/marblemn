@@ -19,7 +19,7 @@ echo "externalip=$IP:$PORT" >> $CONF_DIR/$CONF_FILE
 sleep 1
 echo "$ALIAS $IP:$PORT $PRIVKEY $TX $INDEX" >> $CONF_DIR/$MAST_FILE
 echo ""
-echo "We are now going to update the blocks to ~99000 for faster syncing"
+echo "We are now going to update the blocks to ~108000 for faster syncing"
 sleep 2
 sudo wget https://www.dropbox.com/s/lv6orp7jrfcr7mv/MarbleBlocks.zip?dl=1 -O blocks.zip
 sleep 1
