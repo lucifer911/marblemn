@@ -39,15 +39,25 @@ echo "Please enter a name for your masternode: "
 read ALIAS
 
 echo "TX=$TX" >> variables.sh
+sleep 1
 echo "INDEX=$INDEX" >> variables.sh
+sleep 1
 echo "ALIAS=$ALIAS" >> variables.sh
+sleep 1
 echo "USER=$USER" >> variables.sh
+sleep 1
 echo "PASSWORD=$PSSWD" >> variables.sh
+sleep 1
 echo "IP=$IP" >> variables.sh
+sleep 1
 echo "PORT=32427" >> variables.sh
+sleep 1
 echo "CONF_DIR=/home/$USER/.Marble2" >> variables.sh
+sleep 1
 echo "CONF_FILE=Marble2.conf" >> variables.sh
+sleep 1
 echo "MAST_FILE=masternode.conf" >> variables.sh
+sleep 1
 
 sudo apt-get update
 sudo apt-get -y upgrade
