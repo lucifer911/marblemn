@@ -103,11 +103,11 @@ sudo rm Marble-qt
 sleep 1
 sudo chmod +x Marbled
 sleep 1
-sudo mv Marbled /home/$USER
+sudo mv Marbled /home/$USR
 sleep 1
-sudo mv ~/marblemn/variables.sh /home/$USER
+sudo mv ~/marblemn/variables.sh /home/$USR
 sleep 1
-sudo mv ~/marblemn/genkey.sh /home/$USER
+sudo mv ~/marblemn/genkey.sh /home/$USR
 sleep 1
 echo ""
 echo ""
