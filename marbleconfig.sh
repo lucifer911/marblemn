@@ -18,16 +18,16 @@ echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo && echo && echo
 
 echo "Please enter a NEW (NOT ROOT AND NO NUMBERS AND NO CAPS) username : "
-read USER
+read USR
 sleep 1
 echo "Please enter a NEW password : "
 read PSSWD
 sleep 1
-sudo adduser $USER --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+sudo adduser $USR --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
 sleep 1
-echo "$USER:$PSSWD" | sudo chpasswd
+echo "$USR:$PSSWD" | sudo chpasswd
 sleep 1
-sudo adduser $USER sudo
+sudo adduser $USR sudo
 sleep 1
 echo "Please enter the IP Address of your server (WITHOUT PORT): "
 read IP
@@ -44,7 +44,7 @@ echo "INDEX=$INDEX" >> variables.sh
 sleep 1
 echo "ALIAS=$ALIAS" >> variables.sh
 sleep 1
-echo "USER=$USER" >> variables.sh
+echo "USR=$USR" >> variables.sh
 sleep 1
 echo "PASSWORD=$PSSWD" >> variables.sh
 sleep 1
@@ -113,4 +113,4 @@ echo ""
 echo ""
 echo ""
 echo "Part one is done, please enter the command: sudo bash genkey.sh"
-su - $USER
+su - $USR
