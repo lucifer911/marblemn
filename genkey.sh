@@ -6,7 +6,7 @@ source variables.sh
 sudo strip Marbled
 sudo ./Marbled -daemon
 echo""
-sleep 2
+sleep 5
 PRIVKEY=$(./Marbled masternode genkey)
 sleep 1
 echo "PRIVKEY=$PRIVKEY" >> variables.sh
