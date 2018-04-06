@@ -1,6 +1,6 @@
 # Marble Masternode Install Script
 
-Stable and cheap host here https://kaiju.cc/budgetvps.php
+Stable and cheap host here https://m.do.co/c/b93026fab810
 
 MARCO address if this helped you and you love me: MDJX4GtTXzE99qZH8VWBcVPuYTX8i6459N
 
