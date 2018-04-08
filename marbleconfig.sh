@@ -18,16 +18,16 @@ echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo && echo && echo
 
 echo "Please enter a NEW (NOT ROOT AND NO NUMBERS AND NO CAPS) username : "
-read USR
+read USER
 sleep 1
 echo "Please enter a NEW password : "
 read PSSWD
 sleep 1
-sudo adduser $USR --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+sudo adduser $USER --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
 sleep 1
-echo "$USR:$PSSWD" | sudo chpasswd
+echo "$USER:$PSSWD" | sudo chpasswd
 sleep 1
-sudo adduser $USR sudo
+sudo adduser $USER sudo
 sleep 1
 echo "Please enter the IP Address of your server (WITHOUT PORT): "
 read IP
@@ -44,7 +44,7 @@ echo "INDEX=$INDEX" >> variables.sh
 sleep 1
 echo "ALIAS=$ALIAS" >> variables.sh
 sleep 1
-echo "USR=$USR" >> variables.sh
+echo "USER=$USER" >> variables.sh
 sleep 1
 echo "PASSWORD=$PSSWD" >> variables.sh
 sleep 1
@@ -52,7 +52,7 @@ echo "IP=$IP" >> variables.sh
 sleep 1
 echo "PORT=32427" >> variables.sh
 sleep 1
-echo "CONF_DIR=/home/$USR/.Marble2" >> variables.sh
+echo "CONF_DIR=/home/$USER/.Marble2" >> variables.sh
 sleep 1
 echo "CONF_FILE=Marble2.conf" >> variables.sh
 sleep 1
@@ -103,14 +103,14 @@ sudo rm Marble-qt
 sleep 1
 sudo chmod +x Marbled
 sleep 1
-sudo mv Marbled /home/$USR
+sudo mv Marbled /home/$USER
 sleep 1
-sudo mv ~/marblemn/variables.sh /home/$USR
+sudo mv ~/marblemn/variables.sh /home/$USER
 sleep 1
-sudo mv ~/marblemn/genkey.sh /home/$USR
+sudo mv ~/marblemn/genkey.sh /home/$USER
 sleep 1
 echo ""
 echo ""
 echo ""
 echo "Part one is done, please enter the command: sudo bash genkey.sh"
-su - $USR
+su - $USER
