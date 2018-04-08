@@ -52,7 +52,7 @@ echo "IP=$IP" >> variables.sh
 sleep 1
 echo "PORT=32427" >> variables.sh
 sleep 1
-echo "CONF_DIR=/home/$USER/.Marble2" >> variables.sh
+echo "CONF_DIR=/home/$USR/.Marble2" >> variables.sh
 sleep 1
 echo "CONF_FILE=Marble2.conf" >> variables.sh
 sleep 1
